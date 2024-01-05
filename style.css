@@ -1,0 +1,39 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(198,0,43,1) 93%);
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+section>p{
+    color:#4D8076;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(198,0,43,1) 93%);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4D8076;
+    color: white;
+  }
